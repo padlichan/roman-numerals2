@@ -1,9 +1,3 @@
 def romanise(num):
-    if num ==  1:
-        return "I"
-    elif num == 2:
-        return "II"
-    elif num == 3:
-        return "III"
-    else: 
-        return ""
+    numerals = {1 : "I", 2 : "II", 3 : "III", 4 : "IV"}
+    return numerals[num]

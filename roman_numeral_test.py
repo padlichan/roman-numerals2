@@ -10,3 +10,6 @@ class TestStringMethods(unittest.TestCase):
 
     def test_does_three(self):
         self.assertEqual(romanise(3), "III")
+
+    def test_does_four(self):
+        self.assertEqual(romanise(4), "IV")
